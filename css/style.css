@@ -9,8 +9,9 @@ html {
 }
 
 .header-container {
-    background-color: rgb(211, 235, 192);
+    background-image: url("../images/footer.jpg");
     text-decoration: none;
+    width: 100%;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -59,9 +60,10 @@ html {
     font-weight: bold;
     font-size: 1em;
     color: black;
-    padding: 0.5em;
+    margin-top: 2em;
+    padding: 0.2em;
     box-shadow: bisque;
-    background-color: rgb(97, 219, 97);
+    background-color: bisque;
 }
 
 .nav-links ui li a h1{
@@ -69,11 +71,11 @@ html {
 }
 
 .nav-links ui li a:hover {
-    color: white;
+    color: orangered;
 }
 
 .button {
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 3vh;
 }
 
@@ -82,6 +84,7 @@ html {
     border-radius: 5px;
     height: 5em;
     margin-top: 1em;
+    color: white;
     margin-bottom: 2em;
 }
 
@@ -147,7 +150,7 @@ html {
     height: 90vh;
 }
 
-.button1 {
+.button2 {
     background-color: rgb(97, 219, 97);
     font-size: 2em;
     border-radius: 5px;
@@ -156,7 +159,7 @@ html {
     margin-top: 1em;
 }
 
-.button1:hover {
+.button2:hover {
     color: white;
 }
 .modules {
@@ -206,6 +209,7 @@ html {
     padding: 1em;
     text-transform: uppercase;
 }
+
 
 .form-page {
     display: flex;
@@ -304,34 +308,90 @@ html {
 }
 
 
-footer {
-    background-image: url("../images/footer.jpg");
-    background-size: cover;
-    height: 30vh;
-    margin: 0 auto;
-    padding-top:5vh;
+.footer-section-container {
+    background-color: rgb(110, 109, 109);
+    height: 50vh;
+    width: 100%;
 }
 
-footer h2{
-    margin-left: 35%;
-    margin-top: 2em;
+.footer-section-content {
+    display: flex;
+    flex-direction: row;
 }
 
-.icons {
+.logo-links-section {
+    margin-left: 8vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+
+}
+
+.logo-links-section img {
+    margin-top: 0vh;
+    margin-left: 2.5vw;
+}
+
+.logo-links-section h1 {
+    text-decoration: none;
+    margin-left: 0.5vw;
+}
+
+.logo-links-section ui{
+    list-style-type: none;
+}
+
+.logo-links-section ui li {
+    margin-left: 1.5vw;
+}
+
+.recent-news-section {
+    width: 25vw;
+    margin-left: 14vw;
+}
+
+.recent-news-section h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 6.7em;
+    margin-top: 4vh;
+}
+
+.signup-section {
+    margin-left: 30vh;
+    margin-top: 2vh;
+}
+
+.signup-section p {
+    margin-top: 5vh;
+}
+
+.button1 {
+    background-color: blue;
+    text-align: center;
+    margin-left: 1vw;
+    padding: 0.9em;
+    height: 1.5em;
+    border-radius: 5px;
+    margin-top: -0.4vh;
+}
+
+.button1 h1 {
+    margin-top: -0.5em;
+    font-size: 1em;
+}
+
+.aman {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-links {
     display: flexbox;
-    margin-left: 20.13em;
-    padding-top:2vh;
-    padding-left: 1em;
-    background-color: blanchedalmond;
-    margin-right: 22.6em;
-    box-shadow: blue;
-    border: 1px solid white;
     font-weight: bold;
     font-size: 2em;
 }
 
-.icons:hover{
-    opacity: 0.6;
-    background-color: white;
+.copyright {
+    margin-left: 5vw;
 }
-
